@@ -1,3 +1,10 @@
+<h1>Angular Routing Example</h1>
 
-<!-- content projection-->
-<app-bank></app-bank>
+<nav>
+  <a routerLink="/account" routerLinkActive="active">Account</a> |
+  <a routerLink="/bank" routerLinkActive="active">Bank</a>
+</nav>
+
+<hr />
+
+<router-outlet></router-outlet>

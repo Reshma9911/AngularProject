@@ -7,6 +7,8 @@ import { Account } from './common.model';
   providedIn: 'root'
 })
 export class CommanServiceService {
+
+ 
   private apiUrl = 'https://jsonplaceholder.typicode.com/users'; // dummy API
 
   constructor( private http: HttpClient) { }
@@ -16,9 +18,5 @@ export class CommanServiceService {
   getAccounts(): Observable<Account[]> {
     return this.http.get<Account[]>(this.apiUrl);
   }
-  
-  public method()
-  {
-    console.log("api",this.apiUrl);
-  }
+
 }
