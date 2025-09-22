@@ -39,3 +39,4 @@
 37. What is constant, enum and Assertion?
 38. Where should we stored JWT token in angular?
 39. What is View encapsulation?
+40. 
